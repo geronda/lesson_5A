@@ -1,0 +1,284 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"),
+    url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Black.woff2") format("woff2"),
+    url("../fonts/Gilroy-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-UltraLight.woff2") format("woff2"),
+    url("../fonts/Gilroy-UltraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-UltraLightItalic.woff2") format("woff2"),
+    url("../fonts/Gilroy-UltraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),
+    url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+ol li,
+ul li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+/* -------------- */
+.navigation1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.main {
+  max-width: 890px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mar1 {
+  background-color: bisque;
+  margin: 50px;
+}
+.mar2 {
+  background-color: bisque;
+  margin: 0px 0px 40px 0px;
+}
+.mar3 {
+  background-color: bisque;
+  margin: 0px 0px 0px 100px;
+}
+.pad1 {
+  background-color: bisque;
+  padding: 50px;
+}
+.pad2 {
+  background-color: bisque;
+  padding: 0px 0px 40px 0px;
+}
+.pad3 {
+  background-color: bisque;
+  padding: 0px 0px 0px 100px;
+  text-align: justify;
+}
+.subtitle {
+  font-size: 30px;
+  background-color: rgb(226, 196, 175);
+  margin: 20px 0px 20px 0px;
+}
+.subtitle1 {
+  font-size: 25px;
+  background-color: rgb(235, 224, 191);
+  line-height: 2;
+  margin: 20px 0px 20px 0px;
+}
+.title {
+  font-size: 35px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.prikol1 {
+  background-color: bisque;
+  margin-bottom: 50px;
+  height: 40px;
+}
+.wid1 {
+  max-width: 600px;
+  text-align: justify;
+  background-color: bisque;
+}
+.wid2 {
+  max-width: 600px;
+  text-align: justify;
+  background-color: bisque;
+  margin: 0px 0px 0px 250px;
+}
+.wid5 {
+  width: 600px;
+  text-align: justify;
+  background-color: bisque;
+  margin: 0px 0px 0px 250px;
+}
+.wid3 {
+  max-width: 600px;
+  text-align: justify;
+  background-color: bisque;
+  margin: 0px 0px 0px auto;
+}
+.wid4 {
+  width: 600px;
+  text-align: justify;
+  background-color: bisque;
+}
+.wid6 {
+  min-width: 600px;
+  text-align: justify;
+  background-color: bisque;
+}
+.linehegh1 {
+  line-height: 1.4;
+}
+.heig1 {
+  min-height: 120px;
+  text-align: justify;
+  background-color: bisque;
+}
+.heig2 {
+  max-height: 50px;
+  text-align: justify;
+  background-color: bisque;
+}
+.images {
+  font-size: 0;
+}
+.image {
+  width: 250px;
+}
+.mar4 {
+  margin: 0px 30px 0px 0px;
+}
+.pad4 {
+  padding: 20px;
+  background-color: chocolate;
+}
+.image1 {
+  width: 100%;
+  max-width: 500px;
+}
+.image2 {
+  width: 100%;
+}
+.prikol2 {
+  background-color: bisque;
+  margin: 0px 0px 50px 0px;
+  height: 80px;
+  overflow: auto;
+}
+.list {
+  text-align: left;
+  margin: 0px 0px 20px 0px;
+}
+.list1 {
+  text-align: left;
+  margin: 0px 0px 20px 50px;
+}
+.list2 li {
+  display: inline-block;
+}
+.list2 {
+  font-size: 0;
+}
+.list3 {
+  margin: 0px 0px 0px 50px;
+  text-align: left;
+}
+.list3 li {
+  margin: 0px 10px 0px 0px;
+}
+.color1 {
+  background-color: rgb(204, 214, 166);
+}
+.color2 {
+  background-color: rgb(162, 184, 150);
+}
+.fontsize1 {
+  font-size: 16px;
+}
+.list4 {
+  text-align: right;
+}
+.list4 li {
+  margin: 20px 0px 20px 20px;
+}
+.block1 {
+  max-width: 350px;
+  display: inline-block;
+  text-align: justify;
+  background-color: burlywood;
+}
+.block2 {
+  max-width: 350px;
+  display: inline-block;
+}
+.block3 {
+  max-width: 100%;
+  display: inline-block;
+  text-align: justify;
+  margin: 20px 0px 0px 0px;
+}
+.img2 {
+  width: 100%;
+}
+.mar5 {
+  margin: 0px 0px 0px 25px;
+}
